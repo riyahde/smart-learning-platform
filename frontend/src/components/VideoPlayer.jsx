@@ -5,7 +5,7 @@ function VideoPlayer() {
   return (
     <div className="max-w-[350px] mx-auto p-4 absolute top-[55%] left-[50%]">
       <video
-        src={myVideo}
+        //src={myVideo}
         autoPlay
         loop
         controls
