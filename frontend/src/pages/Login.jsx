@@ -1,18 +1,18 @@
-import React, { useState } from 'react'
-import logo from '../assets/logo.jpg'
-import google from '../assets/google.jpg'
-import axios from 'axios'
-import { serverUrl } from '../App'
+import React, { useState } from 'react';
+import logo from '../assets/logo.jpg';
+import google from '../assets/google.jpg';
+import axios from 'axios';
+import { serverUrl } from '../App';
 import { MdOutlineRemoveRedEye } from "react-icons/md";
 
 import { MdRemoveRedEye } from "react-icons/md";
-import { useNavigate } from 'react-router-dom'
-import { signInWithPopup } from 'firebase/auth'
-import { auth, provider } from '../../utils/Firebase'
-import { toast } from 'react-toastify'
-import { ClipLoader } from 'react-spinners'
-import { useDispatch } from 'react-redux'
-import { setUserData } from '../redux/userSlice'
+import { useNavigate } from 'react-router-dom';
+import { signInWithPopup } from 'firebase/auth';
+import { auth, provider } from '../../utils/Firebase';
+import { toast } from 'react-toastify';
+import { ClipLoader } from 'react-spinners';
+import { useDispatch } from 'react-redux';
+import { setUserData } from '../redux/userSlice';
 
 function Login() {
     const [email,setEmail]= useState("")

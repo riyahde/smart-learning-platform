@@ -1,8 +1,8 @@
-import React, { useEffect } from 'react'
-import { useDispatch } from 'react-redux'
-import { serverUrl } from '../App'
-import { setAllReview } from '../redux/reviewSlice'
-import axios from 'axios'
+import React, { useEffect } from 'react';
+import { useDispatch } from 'react-redux';
+import { serverUrl } from '../App';
+import { setAllReview } from '../redux/reviewSlice';
+import axios from 'axios';
 
 const getAllReviews = () => {
 

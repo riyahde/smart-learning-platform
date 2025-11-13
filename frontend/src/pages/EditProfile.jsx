@@ -1,11 +1,11 @@
-import axios from 'axios'
-import React, { useState } from 'react'
-import { useDispatch, useSelector } from 'react-redux'
-import { serverUrl } from '../App'
-import { setUserData } from '../redux/userSlice'
-import { toast } from 'react-toastify'
-import { ClipLoader } from 'react-spinners'
-import { useNavigate } from 'react-router-dom'
+import axios from 'axios';
+import React, { useState } from 'react';
+import { useDispatch, useSelector } from 'react-redux';
+import { serverUrl } from '../App';
+import { setUserData } from '../redux/userSlice';
+import { toast } from 'react-toastify';
+import { ClipLoader } from 'react-spinners';
+import { useNavigate } from 'react-router-dom';
 import { FaArrowLeftLong } from "react-icons/fa6";
 
 function EditProfile() {

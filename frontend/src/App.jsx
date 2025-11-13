@@ -1,30 +1,30 @@
 import React from 'react'
-import { Navigate, Route, Routes } from 'react-router-dom'
-import Home from './pages/Home'
-import Login from './pages/Login'
-import SignUp from './pages/SignUp'
+import { Navigate, Route, Routes } from 'react-router-dom';
+import Home from './pages/Home';
+import Login from './pages/Login';
+import SignUp from './pages/SignUp';
 import { ToastContainer} from 'react-toastify';
-import ForgotPassword from './pages/ForgotPassword'
-import getCurrentUser from './customHooks/getCurrentUser'
-import { useSelector } from 'react-redux'
-import Profile from './pages/Profile'
-import EditProfile from './pages/EditProfile'
-import Dashboard from './pages/admin/Dashboard'
-import Courses from './pages/admin/Courses'
-import AllCouses from './pages/AllCouses'
-import AddCourses from './pages/admin/AddCourses'
-import CreateCourse from './pages/admin/CreateCourse'
-import CreateLecture from './pages/admin/CreateLecture'
-import EditLecture from './pages/admin/EditLecture'
+import ForgotPassword from './pages/ForgotPassword';
+import getCurrentUser from './customHooks/getCurrentUser';
+import { useSelector } from 'react-redux';
+import Profile from './pages/Profile';
+import EditProfile from './pages/EditProfile';
+import Dashboard from './pages/admin/Dashboard';
+import Courses from './pages/admin/Courses';
+import AllCouses from './pages/AllCouses';
+import AddCourses from './pages/admin/AddCourses';
+import CreateCourse from './pages/admin/CreateCourse';
+import CreateLecture from './pages/admin/CreateLecture';
+import EditLecture from './pages/admin/EditLecture';
 
-import getCouseData from './customHooks/getCouseData'
-import ViewCourse from './pages/ViewCourse'
-import ScrollToTop from './components/ScrollToTop'
-import getCreatorCourseData from './customHooks/getCreatorCourseData'
-import EnrolledCourse from './pages/EnrolledCourse'
-import ViewLecture from './pages/ViewLecture'
-import SearchWithAi from './pages/SearchWithAi'
-import getAllReviews from './customHooks/getAllReviews'
+import getCouseData from './customHooks/getCouseData';
+import ViewCourse from './pages/ViewCourse';
+import ScrollToTop from './components/ScrollToTop';
+import getCreatorCourseData from './customHooks/getCreatorCourseData';
+import EnrolledCourse from './pages/EnrolledCourse';
+import ViewLecture from './pages/ViewLecture';
+import SearchWithAi from './pages/SearchWithAi';
+import getAllReviews from './customHooks/getAllReviews';
 
 export const serverUrl = "https://smart-learning-platform.onrender.com"
 

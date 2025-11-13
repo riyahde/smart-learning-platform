@@ -1,4 +1,4 @@
-import React from 'react'
+import React from 'react';
 import { useSelector } from "react-redux";
 import { BarChart, Bar, XAxis, YAxis, Tooltip, ResponsiveContainer, CartesianGrid } from "recharts";
 import img from "../../assets/empty.jpg"; // fallback photo
