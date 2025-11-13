@@ -20,7 +20,7 @@ app.use(express.static("public"));
 app.use(express.json())
 app.use(cookieParser())
 app.use(cors({
-    origin:"http://localhost:5173",
+    origin:"https://smart-learning-platform-1.onrender.com",
     credentials:true
 }))
 
